@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function Header(){
+export default function Header(props){
 const menuopened = React.useRef(null)
 function menuopener(){
   
@@ -10,10 +10,16 @@ function menuopener(){
                 menuopened.current.style.display = "block"}
 }
 
-const li = ["Home", "Category", "Products", "Client", "Contact us"]
-const lista = li.map(item=>  (
+
+
+const li = ["Home", "Products", "Client", "Contact us"
+]
+
+const lista = li.map(item=> (
 <li>{item}</li>
 ))
+
+
 
     return (
         <>

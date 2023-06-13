@@ -23,10 +23,10 @@ export default function Footer(){
             <a href="#" style={{marginTop: "1em", display: "block",
             textDecoration: "none", color: "#6c757d"}}>demo@gmail.com</a>
             <div style={{marginTop: "1em", }}>
-                <img style={{marginRight: "0.3em"}} src={require("../imagens/fb-icon.png")} alt=""/>
-                <img style={{marginRight: "0.3em"}} src={require("../imagens/twitter-icon.png")} alt=""/>
-                <img style={{marginRight: "0.3em"}} src={require("../imagens/linkedin-icon.png")} alt=""/>
-                <img src={require("../imagens/instagram-icon.png")}/>
+                <a href="#"><img style={{marginRight: "0.3em" }} src={require("../imagens/fb-icon.png")} alt=""/></a>
+                <a href="#"><img style={{marginRight: "0.3em"}} src={require("../imagens/twitter-icon.png")} alt=""/></a>
+                <a href="#"><img style={{marginRight: "0.3em"}} src={require("../imagens/linkedin-icon.png")} alt=""/></a>
+                <a href="#"><img src={require("../imagens/instagram-icon.png")}/></a>
             </div>
             </div>
             </div>

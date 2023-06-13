@@ -18,7 +18,7 @@ export default function FeaturedProducts(){
             </div>
             
                 <div className="R-content">
-                <div class="R-title">READABLE CONTENT OF</div>
+                <div className="R-title">READABLE CONTENT OF</div>
                 <img src={require("../imagens/img-8.png")} />
                 <a href="#">SEE MORE</a>
                 

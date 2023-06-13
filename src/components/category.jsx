@@ -13,7 +13,7 @@ function MouseEnter(event) {
       let key = image.getAttribute("data-key")
       image.setAttribute("src", categorydata[ key ].mouseover) 
       span.style.color = "black"
-    console.log(event.target, image, span)
+    
       
 }
 
