@@ -12,7 +12,7 @@ function menuopener(){
 
 
 
-const li = ["Home", "Products", "Client", "Contact us"
+const li = ["Home", "Category", "Products", "Client", "Contact us"
 ]
 
 const lista = li.map(item=> (
