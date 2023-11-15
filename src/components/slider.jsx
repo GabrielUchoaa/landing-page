@@ -15,7 +15,7 @@ spaceBetween={100}
 slidesPerView={1}
 loop={true}
 autoplay={{
-    delay: 6000,
+    delay: 5000,
     disableOnInteraction: false,
   }}
 
