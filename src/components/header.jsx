@@ -16,8 +16,8 @@ let prod;
 let clien;
 let contac; 
 
-if (window.matchMedia("(max-width: 400px) && (min-height: 600px)").matches) {
-    cat = 700
+if (window.matchMedia("(max-width: 400px) and (min-height: 600px)").matches) {
+    cat = 692
     prod = 1410
     clien = 5250
     contac = 5990
