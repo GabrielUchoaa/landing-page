@@ -13,12 +13,7 @@ import Footer from './components/footer';
 
 function App() {
 
-  React.useEffect(()=> {
-     fetch(`https://newsapi.org/v2/everything?q=paranal&from=2023-05-15&sortBy=publishedAt&apiKey=434a1c6f049c4c6590d71a90c4a74bd5`)
-    .then(response => {response.json()
-    .then(data => console.log(data.articles[0].content))
-    })
-}, [])
+  
 
 
 

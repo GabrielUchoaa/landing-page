@@ -11,13 +11,35 @@ function menuopener(){
 }
 
 
+let cat;
+let prod; 
+let clien;
+let contac; 
 
-const li = ["Home", "Category", "Products", "Client", "Contact us"
-]
+if (window.matchMedia("(max-width: 320px)").matches) {
+    cat = 700
+    prod = 1410
+    clien = 5250
+    contac = 5990
+  }else {
+    cat = 900
+    prod = 1180
+    clien = 3250
+    contac = 3920
+  }
 
-const lista = li.map(item=> (
-<li>{item}</li>
-))
+const lista = (
+<>
+<li>Home</li>
+<li onClick={() => window.scrollTo({ top: cat, behavior: "smooth" })}>Category</li>
+<li onClick={() => window.scrollTo({ top: prod, behavior: "smooth" })}>Products</li>
+<li onClick={() => window.scrollTo({ top: clien, behavior: "smooth" })}>Client</li>
+<li onClick={() => window.scrollTo({ top: contac, behavior: "smooth" })}>Contact us</li>
+</>
+)
+
+
+
 
 
 

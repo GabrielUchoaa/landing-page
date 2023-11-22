@@ -8,11 +8,11 @@ export default function FeaturedProducts(){
             <div className="f-flex">
             <div className="readable-content">
                 <div className="r-content">
-                <div class="r-title">READABLE CONTENT OF</div>
+                <div className="r-title">READABLE CONTENT OF</div>
                 <img src={require("../imagens/img-7.png")} />
                 </div>
                 <div className="r-content">
-                <div class="r-title">READABLE CONTENT OF</div>
+                <div className="r-title">READABLE CONTENT OF</div>
                 <img src={require("../imagens/img-7.png")} />
                 </div>
             </div>
